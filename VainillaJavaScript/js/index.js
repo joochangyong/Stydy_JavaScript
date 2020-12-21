@@ -11,3 +11,20 @@ const c = 221;
 const d = c - 5;
 
 console.log(`d = ${d} c = ${c}`);
+
+/* String
+const what = "changyong";
+console.log(what);
+*/
+
+/* Boolean
+const wat = false;
+*/
+
+/* Number
+const wat = 6666;
+*/
+
+/* float
+const wat = 55.1;
+*/
