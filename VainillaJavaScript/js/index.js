@@ -37,3 +37,26 @@ const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", true, somet
 console.log(daysOfWeek);
 console.log(daysOfWeek[2]);
 */
+
+/* Object
+const userInfo = {
+    name: "changyong",
+    age: 25,
+    gender: "Male",
+    favMovies: ["Along the gods", "LOTR", "Oldboy"],
+    favFood: [
+        {
+            name: "Kimchi", fatty: false
+        }, 
+        {
+            name: "Cheese buger", fatty: true
+        }
+        ]
+    };
+
+console.log(userInfo);
+console.log(userInfo.age);
+userInfo.age=26;
+console.log(userInfo.age);
+console.log(userInfo.name +" is "+ userInfo.age);
+*/
