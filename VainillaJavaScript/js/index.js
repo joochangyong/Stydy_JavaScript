@@ -1,6 +1,6 @@
-const title = document.getElementById("title");
+// const title = document.getElementById("title");
 // == const title = document.querySelector("#title");
-
+const title = document.querySelector("#title");
 /* //DOM
 // title를 id로 가진 태그의 텍스트 바꾸기
 title.innerHTML = "Hi! From JS";
@@ -42,6 +42,7 @@ const age = prompt("How old ard you?");
 console.log(age);
 */
 
+/* // if-else
 const age = prompt("How old ard you?");
 if (age >= 18 && age <= 21) {
     console.log("you can dring but you should not");
@@ -50,3 +51,23 @@ if (age >= 18 && age <= 21) {
 } else {
     console.log("too young");
 }
+*/
+/* // DOM if-else Function
+const BASE_COLOR = "blue";
+const OTHER_COLOR = "red";
+
+function handleClick() {
+    const currentColor = title.style.color;
+    if (currentColor === BASE_COLOR) {
+        title.style.color = OTHER_COLOR;
+    } else {
+        title.style.color = BASE_COLOR;
+    }
+}
+
+function init() {
+    title.style.color= BASE_COLOR;
+}
+title.addEventListener("click", handleClick); // "mouseenter", "handleClick"
+init();
+*/
