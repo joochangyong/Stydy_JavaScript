@@ -9,3 +9,19 @@ title.style.background="white";
 // document는 html전체. 그중 title태그 텍스트 바꾸기
 document.title = "I own you now";
 console.dir(document);
+
+/*
+function handleResize() {
+    console.log("I have been resized")
+}
+
+function handleResize(event) {
+    console.log(event);
+}
+window.addEventListener("resize", handleResize);
+*/
+
+function handleClick() {
+    title.style.color="blue";
+}
+title.addEventListener("click", handleClick);
