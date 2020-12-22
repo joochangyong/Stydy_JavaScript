@@ -73,12 +73,11 @@ title.addEventListener("click", handleClick); // "mouseenter", "handleClick"
 init();
 */
 
-// DOM if-else Function2
-
+/* // DOM if-else Function2
 const CLICKED_CLASS = "clicked";
 
 function handleClick() {
-    /*
+    
     // const currentClass = title.className;
     const hasClass = title.classList.contains(CLICKED_CLASS);
     // if(currentClass !== CLICKED_CLASS) {
@@ -89,7 +88,7 @@ function handleClick() {
         // title.className = "";
         title.classList.add(CLICKED_CLASS);
     }
-    */
+    
    // toggle. 위에것을 toggle로 변경. toggle안에 있는 값이 있으면 add, 없으면 remove
     title.classList.toggle(CLICKED_CLASS);
 }
@@ -98,3 +97,5 @@ function init() {
     title.addEventListener("click", handleClick); // "mouseenter", "handleClick"
 }
 init();
+
+*/
