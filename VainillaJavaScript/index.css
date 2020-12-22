@@ -1,7 +1,17 @@
 body{
-    background-color: peru;
+    background-color: #ecf0f1;
+}
+
+.btn{
+    cursor: pointer;
 }
 
 h1 {
-    color: white;
+    color: blue;
+    /* 지연시간 */
+    transition: color 0.5s ease-in-out;
+}
+
+.clicked{
+    color: yellow;
 }
