@@ -1,7 +1,7 @@
 // const title = document.getElementById("title");
 // == const title = document.querySelector("#title");
 const title = document.querySelector("#title");
-/* //DOM
+ //DOM
 // title를 id로 가진 태그의 텍스트 바꾸기
 title.innerHTML = "Hi! From JS";
 title.style.color = "red";
@@ -10,9 +10,9 @@ title.style.background="white";
 // document는 html전체. 그중 title태그 텍스트 바꾸기
 document.title = "I own you now";
 console.dir(document);
-*/
 
-/* // Events and event handlers
+
+ // Events and event handlers
 function handleResize() {
     console.log("I have been resized")
 }
@@ -26,23 +26,23 @@ function handleClick() {
     title.style.color="blue";
 }
 title.addEventListener("click", handleClick);
-*/
 
-/* // if-else
+
+ // if-else
 if(10 === 5) {
     console.log('hi');
 } else {
     console.log('ho');
 }
-*/
 
-/* // alert창으로 물어보기. 잘 안씀. 엄청 오래됨.
+
+ // alert창으로 물어보기. 잘 안씀. 엄청 오래됨.
 prompt("Ask something");
 const age = prompt("How old ard you?");
 console.log(age);
-*/
 
-/* // if-else
+
+ // if-else
 const age = prompt("How old ard you?");
 if (age >= 18 && age <= 21) {
     console.log("you can dring but you should not");
@@ -51,9 +51,9 @@ if (age >= 18 && age <= 21) {
 } else {
     console.log("too young");
 }
-*/
 
-/* // DOM if-else Function
+
+ // DOM if-else Function
 const BASE_COLOR = "blue";
 const OTHER_COLOR = "red";
 
@@ -71,9 +71,9 @@ function init() {
 }
 title.addEventListener("click", handleClick); // "mouseenter", "handleClick"
 init();
-*/
 
-/* // DOM if-else Function2
+
+ // DOM if-else Function2
 const CLICKED_CLASS = "clicked";
 
 function handleClick() {
@@ -97,5 +97,3 @@ function init() {
     title.addEventListener("click", handleClick); // "mouseenter", "handleClick"
 }
 init();
-
-*/
