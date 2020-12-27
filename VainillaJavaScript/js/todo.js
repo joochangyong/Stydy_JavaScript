@@ -33,11 +33,11 @@ function paintToDo(text) {
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     const newId = toDos.length + 1;
-    delBtn.innerText = "x";
+    delBtn.innerText = "❌";
     delBtn.addEventListener("click", deleteToDos);
     span.innerText = text;
-    li.appendChild(span);
     li.appendChild(delBtn);
+    li.appendChild(span);
     li.id = newId;
     toDoList.appendChild(li);
     //리스트 생성
